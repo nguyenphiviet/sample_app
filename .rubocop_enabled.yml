@@ -106,7 +106,7 @@ Style/CollectionMethods:
 
 Style/ColonMethodCall:
   Description: "Do not use :: for method call."
-  Enabled: true
+  Enabled: false
 
 Style/CommentAnnotation:
   Description: >-
@@ -156,7 +156,7 @@ Layout/EmptyLines:
 
 Layout/EmptyLinesAroundAccessModifier:
   Description: "Keep blank lines around access modifiers."
-  Enabled: true
+  Enabled: false
 
 Layout/EmptyLinesAroundBlockBody:
   Description: "Keeps track of empty lines around expression bodies."
