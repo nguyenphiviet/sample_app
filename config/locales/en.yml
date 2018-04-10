@@ -30,4 +30,24 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
-  hello: "Hello world"
+  app_name: "sample app"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  tutorial_name: "Ruby on Rails Tutorial"
+  link_tutorial: "http://www.railstutorial.org/"
+  author_name: "Michael Hartl"
+  author_link: "http://www.michaelhartl.com/"
+  contact: "Contact"
+  static_pages:
+    home:
+      welcome: "Welcome to the Sample App"
+      btn_signup: "Sign up now!"
+  layouts:
+    footer:
+      about: "About"
+      contact: "Contact"
+      new: "News"
+      link_new: "http://news.railstutorial.org/"
+    header:
+      home: "Home"
+      help: "Help"
+      login: "Login"
