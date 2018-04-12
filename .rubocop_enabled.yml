@@ -1,7 +1,9 @@
 # These are all the cops that are enabled in the default configuration.
+
 Style/ExpandPathArguments:
   Description: "NPV expand_path"
   Enabled: false
+
 Layout/AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
   Enabled: true
