@@ -31,12 +31,14 @@
 
 en:
   app_name: "sample app"
-  base_title: "Ruby on Rails Tutorial Sample App"
-  tutorial_name: "Ruby on Rails Tutorial"
-  link_tutorial: "http://www.railstutorial.org/"
-  author_name: "Michael Hartl"
   author_link: "http://www.michaelhartl.com/"
+  author_name: "Michael Hartl"
+  base_title: "Ruby on Rails Tutorial Sample App"
+  btn_signup: "Sign up now!"
   contact: "Contact"
+  link_tutorial: "http://www.railstutorial.org/"
+  login: "Log in"
+  tutorial_name: "Ruby on Rails Tutorial"
   static_pages:
     home:
       welcome: "Welcome to the Sample App"
@@ -50,4 +52,17 @@ en:
     header:
       home: "Home"
       help: "Help"
-      login: "Login"
+      login: "Log in"
+  users:
+    index:
+      listing_users: "Listing users"
+      name: "Name"
+      email: "Email"
+      show: "Show"
+      edit: "Edit"
+      destroy: "Destroy"
+      confirm: "Are you sure?"
+      new_user: "New User"
+    new:
+      new_user: "New user?"
+    show:
