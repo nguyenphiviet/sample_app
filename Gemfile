@@ -14,9 +14,12 @@ gem "sass-rails", "~> 5.0"
 gem "sqlite3"
 gem "turbolinks", "~> 5"
 gem "uglifier", ">= 1.3.0"
-gem 'bcrypt', '3.1.11'
-gem 'jquery-rails'
-gem 'rubocop', '~> 0.54.0', require: false
+gem "bcrypt", "3.1.11"
+gem "faker",          "1.7.3"
+gem "will_paginate",           "3.1.6"
+gem "bootstrap-will_paginate", "1.0.0"
+gem "jquery-rails"
+gem "rubocop", "~> 0.54.0", require: false
 
 group :development, :test do
   gem "byebug", platforms: [:mri, :mingw, :x64_mingw]

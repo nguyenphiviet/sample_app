@@ -4,6 +4,22 @@ Style/ExpandPathArguments:
   Description: "NPV expand_path"
   Enabled: false
 
+Style/SymbolArray:
+  Description: "NPV add"
+  Enabled: false
+
+Rails/ActiveRecordAliases:
+  Description: "NPV add"
+  Enabled: false
+
+Rails/SkipsModelValidations:
+  Description: "NPV add"
+  Enabled: false
+
+Metrics/AbcSize:
+  Description: "NPV add"
+  Enabled: false
+
 Layout/AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
   Enabled: true
@@ -212,7 +228,7 @@ Style/GlobalVars:
 
 Style/GuardClause:
   Description: "Check for conditionals that can be replaced with guard clauses"
-  Enabled: true
+  Enabled: false
 
 Style/HashSyntax:
   Description: >-
@@ -718,7 +734,7 @@ Lint/UnusedMethodArgument:
 
 Lint/UnreachableCode:
   Description: "Unreachable code."
-  Enabled: true
+  Enabled: false
 
 Lint/UselessAccessModifier:
   Description: "Checks for useless access modifiers."

@@ -6,15 +6,15 @@ class User < ApplicationRecord
   validates :email, presence: true, length: {maximum: 255},
     format: {with: VALID_EMAIL_REGEX}, uniqueness: {case_sensitive: false}
   has_secure_password
-  validates :password, length: {minimum: 6}
+  validates :password, length: {minimum: 6}, allow_nil: true
 
-  def User.digest string
-    cost = ActiveModel::SecurePassword.min_cost ?
-      BCrypt::Engine::MIN_COST : BCrypt::Engine.cost
+  def self.digest string
+    cost = BCrypt::Engine.cost
+    cost = BCrypt::Engine::MIN_COST if ActiveModel::SecurePassword.min_cost
     BCrypt::Password.create(string, cost: cost)
   end
 
-  def User.new_token
+  def self.new_token
     SecureRandom.urlsafe_base64
   end
 
