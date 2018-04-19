@@ -405,7 +405,7 @@ Style/RedundantReturn:
 
 Style/RedundantSelf:
   Description: "Don't use self where it's not needed."
-  Enabled: true
+  Enabled: false
 
 Style/RegexpLiteral:
   Description: >-

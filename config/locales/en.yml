@@ -66,3 +66,6 @@ en:
     new:
       new_user: "New user?"
     show:
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
