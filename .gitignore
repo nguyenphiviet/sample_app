@@ -21,3 +21,5 @@
 /yarn-error.log
 /test/*
 .byebug_history
+# Ignore uploaded test images.
+/public/uploads
