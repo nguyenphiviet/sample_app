@@ -19,6 +19,15 @@ Rails/SkipsModelValidations:
 Metrics/AbcSize:
   Description: "NPV add"
   Enabled: false
+Naming/AccessorMethodName:
+  Description: "NPV add"
+  Enabled: false
+Layout/MultilineOperationIndentation:
+  Description: "NPV add"
+  Enabled: false
+Rails/RequestReferer:
+  Description: "NPV add"
+  Enabled: false
 
 Layout/AccessModifierIndentation:
   Description: Check indentation of private/protected visibility modifiers.
