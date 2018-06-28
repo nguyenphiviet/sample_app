@@ -28,7 +28,7 @@ class User < ApplicationRecord
 
   def remember
     self.remember_token = User.new_token
-    update_attribute(:remember_digest, User.digest(remember_token))
+    update_attributes remember_digest: User.digest(remember_token)
   end
 
   def authenticated? attribute, token
@@ -42,7 +42,7 @@ class User < ApplicationRecord
   end
 
   def activate
-    update_columns(activated: true, activated_at: Time.zone.now)
+    update_attributes(activated: true, activated_at: Time.zone.now)
   end
 
   def send_activation_email
